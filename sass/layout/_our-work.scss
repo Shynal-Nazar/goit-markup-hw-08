@@ -1,4 +1,7 @@
 .our-work {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
   text-align: center;
   padding-top: 47px;
   padding-bottom: 94px;
@@ -16,12 +19,12 @@
 
 .our-work__list {
   display: flex;
-  margin-left: calc(-1 * $set-gap);
+  margin: -15px;
 }
 
 .our-work__item {
-  flex-basis: calc(100% / 3 - $set-gap);
-  margin-left: $set-gap;
+  width: calc((100% - 6 * 15px) / 3);
+  margin: 15px;
 }
 
 .our-work__foto {

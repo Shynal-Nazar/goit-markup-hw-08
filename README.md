@@ -1,1 +1,1 @@
-# goit-markup-hw-08
+# https://shynal-nazar.github.io/goit-markup-hw-08/

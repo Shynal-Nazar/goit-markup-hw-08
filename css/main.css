@@ -1050,10 +1050,6 @@ textarea {
   border: 1px solid #2196f3;
 }
 
-.clients__item:last-child {
-  margin-right: 0;
-}
-
 @media screen and (min-width: 480px) {
   .clients__item {
     width: calc((100% - 4 * 15px) / 2);
@@ -1070,6 +1066,9 @@ textarea {
 @media screen and (min-width: 1200px) {
   .clients__item {
     width: calc((100% - 12 * 15px) / 6);
+  }
+  .clients__item:last-child {
+    margin-right: 0;
   }
 }
 
@@ -1277,6 +1276,7 @@ textarea {
 .subscribe__input {
   height: 50px;
   padding: 15px 16px;
+  margin-bottom: 20px;
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-box-sizing: border-box;
@@ -1292,14 +1292,13 @@ textarea {
 
 @media (min-width: 480px) and (max-width: 1199px) {
   .subscribe__input {
-    margin-bottom: 20px;
     width: 450px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .subscribe__input {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     width: 350px;
   }
 }

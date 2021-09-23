@@ -4,11 +4,28 @@
 
 .header__content {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .navigation {
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 1199px) {
+    margin-right: 64px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 300px;
+  }
 }
 
 .header__logo {
@@ -17,7 +34,6 @@
 
 .navigation__list {
   display: flex;
-  margin-left: 93px;
 }
 
 .navigation__item + .navigation__item {
@@ -63,20 +79,30 @@
 }
 
 .headder-contacts__list {
-  display: flex;
-  margin-left: auto;
   align-items: center;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .header-contacts__item + .header-contacts__item {
-  margin-left: 50px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 50px;
+  }
 }
 
 .header-contacts__link {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  @media screen and (max-width: 1199px) {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 
   font-weight: 500;
   font-size: 14px;

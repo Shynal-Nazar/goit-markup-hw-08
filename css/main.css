@@ -36,6 +36,7 @@ textarea {
 }
 
 .container {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -44,19 +45,19 @@ textarea {
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    max-width: 480px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    max-width: 1200px;
   }
 }
 
@@ -142,7 +143,7 @@ textarea {
   height: 100vh;
   padding: 40px;
   background-color: #ffffff;
-  z-index: 999;
+  z-index: 10;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
   -webkit-transition: -webkit-transform 250ms ease-in-out;
@@ -163,8 +164,18 @@ textarea {
   color: #fff;
 }
 
-.mobile__nav {
-  margin-bottom: 300px;
+.mobile-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .mobile-nav__item:not(:last-child) {
@@ -172,6 +183,9 @@ textarea {
 }
 
 .mobile-nav__link {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   display: block;
   font-weight: 500;
   font-size: 40px;

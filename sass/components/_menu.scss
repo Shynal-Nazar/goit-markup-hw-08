@@ -37,7 +37,7 @@
   height: 100vh;
   padding: 40px;
   background-color: #ffffff;
-  z-index: 999;
+  z-index: 10;
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
@@ -55,10 +55,10 @@
 }
 
 .mobile-menu {
-}
-
-.mobile__nav {
-  margin-bottom: 300px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
 }
 
 .mobile-nav__item {
@@ -67,6 +67,7 @@
   }
 }
 .mobile-nav__link {
+  width: fit-content;
   display: block;
   font-weight: 500;
   font-size: 40px;

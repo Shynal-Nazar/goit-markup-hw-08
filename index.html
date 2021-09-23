@@ -110,19 +110,37 @@
           <ul class="our-work__list list">
             <li class="our-work__item">
               <div class="our-work__foto">
-                <img src="./images/naborinfo.jpg" alt="Набор информации на клавиатуре" width="370" height="294" />
+                <img
+                  srcset="./images/our-work/naborinfo-min.jpg 1x, ./images/our-work/naborinfo@2x-min.jpg 2x"
+                  src="./images/our-work/naborinfo-min.jpg"
+                  alt="Набор информации на клавиатуре"
+                  width="370"
+                  height="294"
+                />
                 <h3 class="our-work__text">Десктопные приложения</h3>
               </div>
             </li>
             <li class="our-work__item">
               <div class="our-work__foto">
-                <img src="./images/podborstylia.jpg" alt="Разработка на ноутбуке мобильных интерфейсов" width="370" height="294" />
+                <img
+                  src="./images/our-work/podborstylia-min.jpg"
+                  srcset="./images/our-work/podborstylia-min.jpg 1x, ./images/our-work/podborstylia@2x-min.jpg 2x"
+                  alt="Разработка на ноутбуке мобильных интерфейсов"
+                  width="370"
+                  height="294"
+                />
                 <h3 class="our-work__text">Мобильные приложения</h3>
               </div>
             </li>
             <li class="our-work__item">
               <div class="our-work__foto">
-                <img src="./images/proverkairaskraska.jpg" alt="Цветовая гамма на планшете" width="370" height="294" />
+                <img
+                  src="./images/our-work/palitra-min.jpg"
+                  srcset="./images/our-work/palitra-min.jpg 1x, ./images/our-work/palitra@2x-min.jpg 2x"
+                  alt="Цветовая гамма на планшете"
+                  width="370"
+                  height="294"
+                />
                 <h3 class="our-work__text">Дизайнерские решения</h3>
               </div>
             </li>
@@ -135,7 +153,14 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list list">
             <li class="card">
-              <div class="card__foto foto"><img src="./images/fotoigor.jpg" alt="Фото Игоря" /></div>
+              <div class="card__foto foto">
+                <picture>
+                  <source srcset="./images/team/desk_igor.jpg 1x, ./images/team/desk_igor@2x.jpg 2x" media="(min-width:1200px)" />
+                  <source srcset="./images/team/tab_igor.jpg 1x, ./images/team/tab_igor@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/team/mob_igor.jpg 1x, ./images/team/mob_igor@2x.jpg 2x" media="(min-width: 480px)" />
+                  <img src="./images/team/tab_igor.jpg" alt="Фото Игоря" />
+                </picture>
+              </div>
               <div class="card__abouttext">
                 <h3 class="card__subtitle">Игорь Демьяненко</h3>
                 <p lang="en" class="card__text">Product Designer</p>
@@ -172,7 +197,14 @@
               </div>
             </li>
             <li class="card">
-              <div class="card__foto foto"><img src="./images/fotoolga.jpg" alt="Фото Ольги" /></div>
+              <div class="card__foto foto">
+                <picture>
+                  <source srcset="./images/team/desk_olga.jpg 1x, ./images/team/desk_olga@2x.jpg 2x" media="(min-width:1200px)" />
+                  <source srcset="./images/team/tab_olga.jpg 1x, ./images/team/tab_olga@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/team/mob_olga.jpg 1x, ./images/team/mob_olga@2x.jpg 2x" media="(min-width: 480px)" />
+                  <img src="./images/team/tab_olga.jpg" alt="Фото Игоря" />
+                </picture>
+              </div>
               <div class="card__abouttext">
                 <h3 class="card__subtitle">Ольга Репина</h3>
                 <p lang="en" class="card__text">Frontend Developer</p>
@@ -209,7 +241,14 @@
               </div>
             </li>
             <li class="card">
-              <div class="card__foto foto"><img src="./images/fotonicolay.jpg" alt="Фото Николая" /></div>
+              <div class="card__foto foto">
+                <picture>
+                  <source srcset="./images/team/desk_nikolay 1x.jpg, ./images/team/desk_nikolay@2x.jpg 2x" media="(min-width:1200px)" />
+                  <source srcset="./images/team/tab_nikolay 1x.jpg, ./images/team/tab_nikolay@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/team/mob_nikolay 1x.jpg, ./images/team/mob_nikolay@2x.jpg 2x" media="(min-width: 480px)" />
+                  <img src="./images/team/tab_nikolay.jpg" alt="Фото Игоря" />
+                </picture>
+              </div>
               <div class="card__abouttext">
                 <h3 class="card__subtitle">Николай Тарасов</h3>
                 <p lang="en" class="card__text">Marketing</p>
@@ -246,7 +285,14 @@
               </div>
             </li>
             <li class="card">
-              <div class="card__foto foto"><img src="./images/fotomisha.jpg" alt="Фото Михаила" /></div>
+              <div class="card__foto foto">
+                <picture>
+                  <source srcset="./images/team/desk_misha.jpg 1x, ./images/team/desk_misha@2x.jpg 2x" media="(min-width:1200px)" />
+                  <source srcset="./images/team/tab_misha.jpg 1x, ./images/team/tab_misha@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/team/mob_misha.jpg 1x, ./images/team/mob_misha@2x.jpg 2x" media="(min-width: 480px)" />
+                  <img src="./images/team/tab_misha.jpg" alt="Фото Игоря" />
+                </picture>
+              </div>
               <div class="card__abouttext">
                 <h3 class="card__subtitle">Михаил Ермаков</h3>
                 <p lang="en" class="card__text">UI Designer</p>

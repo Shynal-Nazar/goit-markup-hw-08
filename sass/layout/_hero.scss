@@ -15,24 +15,27 @@
   margin-right: auto;
   background-position: center;
   background-size: cover;
+  max-width: 1600px;
+  max-height: 600px;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herobgrnd.jpg);
 
-  @media screen and (min-width: 480px) {
-    max-width: 480px;
-    max-height: 400px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herobgrndmob.jpg);
-  }
+  // @media screen and (min-width: 480px) {
+  //   max-width: 480px;
+  //   max-height: 400px;
+  //   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herobgrndmob.jpg);
+  // }
 
-  @media screen and (min-width: 768px) {
-    max-width: 768px;
-    max-height: 400px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herobgrndtab.jpg);
-  }
+  // @media screen and (min-width: 768px) {
+  //   max-width: 768px;
+  //   max-height: 400px;
+  //   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herobgrndtab.jpg);
+  // }
 
-  @media screen and (min-width: 1200px) {
-    max-width: 1600px;
-    max-height: 600px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herobgrnd.jpg);
-  }
+  // @media screen and (min-width: 1200px) {
+  //   max-width: 1600px;
+  //   max-height: 600px;
+  //   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herobgrnd.jpg);
+  // }
 }
 
 .hero__title {

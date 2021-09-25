@@ -9,7 +9,7 @@
     text-align: center;
   }
 
-  @media (min-width: 768px) and (max-width: 1200px) {
+  @media (min-width: 768px) and (max-width: 1199px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -20,8 +20,9 @@
 }
 
 .address {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-right: 165px;
+    text-align: center;
   }
 
   @media screen and (min-width: 1200px) {

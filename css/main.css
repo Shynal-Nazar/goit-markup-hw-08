@@ -681,15 +681,9 @@ textarea {
   color: #757575;
 }
 
-@media screen and (min-width: 480px) {
-  .policy__text {
-    font-size: 14px;
-    line-height: 1.71;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .policy__text {
+    font-size: 14px;
     margin-left: 9px;
   }
 }
@@ -698,13 +692,6 @@ textarea {
   font-size: 12px;
   line-height: 1.71;
   color: #2196f3;
-}
-
-@media screen and (min-width: 480px) {
-  .policy__contract {
-    font-size: 14px;
-    line-height: 1.71;
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1124,12 +1111,12 @@ textarea {
 @media screen and (min-width: 1200px) {
   .team {
     padding-top: 94px;
-    padding-bottom: 47px;
+    padding-bottom: 94px;
   }
 }
 
 .team__title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.18;
@@ -1140,8 +1127,9 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .team__title {
+    margin-bottom: 50px;
     font-size: 36px;
-    line-height: 1.67;
+    line-height: 1.17;
   }
 }
 
@@ -1164,12 +1152,12 @@ textarea {
 @media screen and (min-width: 1200px) {
   .clients {
     padding-top: 94px;
-    padding-bottom: 47px;
+    padding-bottom: 94px;
   }
 }
 
 .clients__title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.08;
@@ -1187,6 +1175,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .clients__title {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.67;
   }
@@ -1280,7 +1269,7 @@ textarea {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .footer__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1301,9 +1290,10 @@ textarea {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .address {
     margin-right: 165px;
+    text-align: center;
   }
 }
 
